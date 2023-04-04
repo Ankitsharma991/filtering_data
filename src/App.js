@@ -1,8 +1,8 @@
 import UserFinder from "./components/UserFinder";
 import UsersContext from "./store/users-context";
 
-import DUMMY_USERS from "./store/datas";
-
+import DUMMY_USERS from "./store/data";
+// no change
 function App() {
   const usersContext = {
     users: DUMMY_USERS,
